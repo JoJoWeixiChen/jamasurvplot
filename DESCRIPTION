@@ -1,0 +1,12 @@
+Package: jamasurvplot
+Type: Package
+Title: This package is used for creating KM survival curves in JAMA format
+Version: 0.1.0
+Author: Weixi Chen
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
