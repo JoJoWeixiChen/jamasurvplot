@@ -1,3 +1,11 @@
+#' @title ggsurvplot_jama.
+#' @description  Making KM survival curves and risk table in JAMA publication-ready format.
+#' @param fit an object of class survfit.
+#' @param x_label the title of x axis.
+#' @param y_label the title of y axis.
+#' @export
+
+
 ggsurvplot_jama <- function (surv_fit, x_label = "Time", y_label)
 {
   km1 <- survminer::ggsurvplot(surv_fit, risk.table = TRUE, size = 0.8, legend = 'none',
