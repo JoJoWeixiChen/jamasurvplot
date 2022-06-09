@@ -4,12 +4,31 @@
 \alias{ggsurvplot_jama}
 \title{ggsurvplot_jama.}
 \usage{
-ggsurvplot_jama(surv_fit, x_label = "Time", y_label)
+ggsurvplot_jama(
+  surv_fit,
+  fontsize = 10,
+  risk_table_fontsize = 3.5,
+  x_label = "Time",
+  y_label,
+  plot_yaxis_title_position = -4,
+  table_title_position = -0.26,
+  annotation = NULL
+)
 }
 \arguments{
-\item{x_label}{the title of x axis.}
+\item{fontsize}{text font size, the default value is 10.}
+
+\item{risk_table_fontsize}{the font size of risk table content, the default value is 3.5.}
+
+\item{x_label}{the title of x axis, the default value is 'Time'.}
 
 \item{y_label}{the title of y axis.}
+
+\item{plot_yaxis_title_position}{the distance between yaxis and its title, the default value is -4.}
+
+\item{table_title_position, }{the indent of risk table's title.}
+
+\item{annotation}{an object of list; the element of the list should be vectors of length 3 that contain the x coordinate, y coordinate, and the content of annotation.}
 
 \item{fit}{an object of class survfit.}
 }
