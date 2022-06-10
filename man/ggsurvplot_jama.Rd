@@ -16,6 +16,8 @@ ggsurvplot_jama(
 )
 }
 \arguments{
+\item{surv_fit}{an object of class survfit.}
+
 \item{fontsize}{text font size, the default value is 10.}
 
 \item{risk_table_fontsize}{the font size of risk table content, the default value is 3.5.}
@@ -29,8 +31,6 @@ ggsurvplot_jama(
 \item{table_title_position, }{the indent of risk table's title.}
 
 \item{annotation}{an object of list; the element of the list should be vectors of length 3 that contain the x coordinate, y coordinate, and the content of annotation.}
-
-\item{fit}{an object of class survfit.}
 }
 \description{
 Making KM survival curves and risk table in JAMA publication-ready format.

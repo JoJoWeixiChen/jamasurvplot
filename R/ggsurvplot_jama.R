@@ -1,6 +1,6 @@
 #' @title ggsurvplot_jama.
 #' @description  Making KM survival curves and risk table in JAMA publication-ready format.
-#' @param fit an object of class survfit.
+#' @param surv_fit an object of class survfit.
 #' @param fontsize text font size, the default value is 10.
 #' @param risk_table_fontsize the font size of risk table content, the default value is 3.5.
 #' @param x_label the title of x axis, the default value is 'Time'.
