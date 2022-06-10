@@ -9,10 +9,14 @@ ggsurvplot_jama(
   fontsize = 10,
   risk_table_fontsize = 3.5,
   x_label = "Time",
-  y_label,
+  y_label = "",
+  break_step = 7,
+  conf.int = FALSE,
   plot_yaxis_title_position = -4,
+  risk.table.title = "No. at risk",
   table_title_position = -0.26,
-  annotation = NULL
+  annotation = NULL,
+  ...
 )
 }
 \arguments{
@@ -24,13 +28,19 @@ ggsurvplot_jama(
 
 \item{x_label}{the title of x axis, the default value is 'Time'.}
 
-\item{y_label}{the title of y axis.}
+\item{y_label}{the title of y axis, the default value is ''.}
+
+\item{break_step}{the break step of x label and the risk table, the default value is 7.}
+
+\item{conf.int}{logical value. If TRUE, plots confidence interval; the default valye is FALSE.}
 
 \item{plot_yaxis_title_position}{the distance between yaxis and its title, the default value is -4.}
 
 \item{table_title_position, }{the indent of risk table's title.}
 
 \item{annotation}{an object of list; the element of the list should be vectors of length 3 that contain the x coordinate, y coordinate, and the content of annotation.}
+
+\item{...}{Further arguments as described hereafter and other arguments to be passed to ggsurvplot function.}
 }
 \description{
 Making KM survival curves and risk table in JAMA publication-ready format.
