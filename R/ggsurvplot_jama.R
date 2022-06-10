@@ -8,10 +8,13 @@
 #' @param break_step the break step of x label and the risk table, the default value is 7.
 #' @param conf.int logical value. If TRUE, plots confidence interval; the default valye is FALSE.
 #' @param plot_yaxis_title_position the distance between yaxis and its title, the default value is -4.
+#' @param risk.table.title the title of risk table, the default value is 'No. at risk'.
 #' @param table_title_position, the indent of risk table's title.
 #' @param annotation an object of list; the element of the list should be vectors of length 3 that contain the x coordinate, y coordinate, and the content of annotation.
 #' @param ... Further arguments as described hereafter and other arguments to be passed to ggsurvplot function.
 #' @export
+#' @import survminer
+#' @import ggpubr
 
 
 ggsurvplot_jama <- function (surv_fit

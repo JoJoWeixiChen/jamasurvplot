@@ -36,6 +36,8 @@ ggsurvplot_jama(
 
 \item{plot_yaxis_title_position}{the distance between yaxis and its title, the default value is -4.}
 
+\item{risk.table.title}{the title of risk table, the default value is 'No. at risk'.}
+
 \item{table_title_position, }{the indent of risk table's title.}
 
 \item{annotation}{an object of list; the element of the list should be vectors of length 3 that contain the x coordinate, y coordinate, and the content of annotation.}
