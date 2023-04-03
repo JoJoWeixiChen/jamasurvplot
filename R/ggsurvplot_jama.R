@@ -49,7 +49,7 @@ ggsurvplot_jama <- function (surv_fit
                   , axis.title.x = element_blank()
                   , axis.text.x = element_blank()
                   , axis.ticks.x = element_blank()
-                  , axis.text.y = element_text(size = fontsize, color = "black", hjust = 1.5)
+                  , axis.text.y = element_text(size = fontsize, color = "black", hjust = 0, margin = margin(0, 2, 0, 0, 'cm'))
                   , axis.ticks.y = element_blank()
                   , plot.title = element_text(size = fontsize, hjust = table_title_position, margin = margin(0, 0, 0, 0, 'cm'))
                   , plot.margin = unit(c(0, -0.3, 0, 0.3), 'cm'))
