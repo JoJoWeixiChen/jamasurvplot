@@ -32,7 +32,7 @@ ggsurvplot_jama <- function (surv_fit
 {
   
   theme1 <- theme_bw() + theme(panel.border = element_blank()
-                               , axis.line = element_line(colour = "black", size = 0.3)
+                               , axis.line = element_line(colour = '#374e55', size = 0.3)
                                , panel.grid.major.x = element_blank()
                                , panel.grid.minor.x = element_blank()
                                , panel.grid.minor.y = element_blank()
